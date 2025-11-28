@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Payment - Candle Store</title>
+<style>
+body { margin:0; background:#fff5ef; font-family:Arial; }
+header { background:#ffbfa9; padding:20px; text-align:center; font-size:30px; font-weight:bold; }
+nav { background:#ff9d76; text-align:center; padding:10px; }
+nav a { margin:0 12px; color:#fff; text-decoration:none; font-size:18px; font-weight:bold; }
+form {
+  width:420px; margin:40px auto; padding:25px; background:white; border-radius:12px;
+  box-shadow:0 0 10px rgba(0,0,0,0.3);
+}
+input, textarea {
+  width:100%; padding:12px; margin:7px 0; border-radius:8px; border:1px solid #ccc;
+}
+button {
+  width:100%; padding:15px; background:#ff7b54; color:white; font-size:18px; font-weight:bold;
+  border:none; border-radius:10px; cursor:pointer;
+}
+footer { background:#ff9d76; padding:15px; text-align:center; font-weight:bold; color:white; }
+</style>
+</head>
+<body>
+
+<header>🕯️ Checkout & Payment 🕯️</header>
+<nav>
+<a href="index.html">Home</a>
+<a href="products.html">Products</a>
+<a href="payment.html">Payment</a>
+<a href="thankyou.html">Thank You</a>
+</nav>
+
+<form action="thankyou.html">
+<h2>Enter Your Details</h2>
+<input type="text" placeholder="Full Name" required>
+<input type="tel" placeholder="Phone Number" required>
+<input type="email" placeholder="Email Address" required>
+<textarea placeholder="Full Address" rows="4" required></textarea>
+<button type="submit">Complete Order</button>
+</form>
+
+<footer>Secure Payment | Fast Delivery | 24/7 Support</footer>
+
+</body>
+</html>
